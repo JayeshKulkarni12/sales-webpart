@@ -1,0 +1,128 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+ 
+
+.form {
+  max-width: 700px;
+  margin: 0 auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  background-color: hsl(190, 89%, 48%); /* Changed to a teal-like color */
+  border-radius: 10px;
+  color: #ffffff; /* Light text color */
+}
+
+ 
+
+.form h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+ 
+
+.form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+ 
+
+.form select,
+.form input[type="text"],
+.form input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #888; /* Changed to a gray border color */
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #000000;
+  background-color: hwb(180, 33%, 67%); /* Changed to a lighter input background */
+}
+
+ 
+
+.form input[type="number"]::-webkit-inner-spin-button,
+.form input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+ 
+
+.form button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 14px 26px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 6px;
+  outline-style: solid;
+  outline-color: rgb(53, 52, 54); /* Changed to a green button background */
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-right: 10px;
+}
+
+ 
+
+.form button:hover {
+  background-color: hwb(221 11% 13%); /* Changed to a darker button background on hover */
+}
+
+ 
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+ 
+
+table th,
+table td {
+  padding: 16px;
+  border: 1px solid #666; /* Changed to a gray border color for table */
+}
+
+ 
+
+table th {
+  background-color: hsl(120, 64%, 41%); /* Changed to a green table header background */
+  color: #fff;
+  text-align: left;
+}
+
+ 
+
+table tbody tr:nth-child(even) {
+  background-color: hsl(160, 30%, 16%); /* Changed to a darker even row background */
+  color: #ccc;
+}
+
+ 
+
+table tbody tr:nth-child(odd) {
+  background-color: hsl(144, 23%, 19%); /* Changed to a darker odd row background */
+  color: #ccc;
+}
+
+ 
+
+/* Additional styles for the button class */
+.style.button {
+  background-color: #3a5c36; /* Changed to a darker green button background for dark mode */
+  color: #ccc;
+}
+
+ 
+
+.style.button:hover {
+  background-color: #2e482a; /* Changed to a darker green button background on hover in dark mode */
+}
